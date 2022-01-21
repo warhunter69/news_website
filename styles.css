@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+
+}
+.main{
+    border: 2px solid;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 70.62495rem;
+}
+
+
+
+.title{
+    font-size: 36px;
+}
+.mainSection{
+    display: flex;
+    
+}
+.mainSection .articule{
+    flex:4 1;
+}
+.mainSection .sidebar{
+    flex:1 1;
+}
+.hero img{
+    max-width: 100%;
+    display: block;
+}
