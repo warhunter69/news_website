@@ -21,7 +21,18 @@ html{
     text-align: center;
 }
 
-
+.navbarLink{
+    display: flex;
+    align-items: center;
+}
+.navbarLink .link2{
+    display: flex;
+    
+}
+.link2 li{
+    flex:1 1;
+    display: inline-block;
+}
 .navbarLink ul{
 
     list-style: none;
@@ -38,11 +49,10 @@ html{
    padding-bottom: 8.25px;
    margin-right: 16.5px;
 }
-.navbarLink a{
+.link1 a{
     text-decoration: none;
-    color: #002837;;
+    color: #002837;
     text-align: left;
-    font-weight: 100;
     display: inline-block;
     width: 100%;
     font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
