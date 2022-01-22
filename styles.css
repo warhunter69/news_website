@@ -11,27 +11,31 @@ html{
     margin: 0 auto;
     max-width: 70.62495rem;
 }
+.logo{
+    height: 3.5rem;
+    width: 21.875rem;
+}
 .navbar{
     display: block;
     text-align: center;
 }
 
 
-.navbarLinks ul{
+.navbarLink ul{
 
     list-style: none;
     display: flex;
     padding-left: 0;
  
 }
-.navbarLinks li{
+.navbarLink li{
 
    flex:1 1;
    border:2px red;
    border-style: solid; 
   
 }
-.navbar a{
+.navbarLink a{
     text-decoration: none;
     color: black;
     text-align: center;
@@ -43,11 +47,13 @@ html{
     transition: all 0.1s;
    
 }
-.navbar a:hover{
+.navbarLink a:hover{
     color:#00b3e5;
 }
-.navbar .logo{
-    flex:1 1 100%;
+
+.header{
+    display: flex;
+
 }
 
 
