@@ -11,6 +11,44 @@ html{
     margin: 0 auto;
     max-width: 70.62495rem;
 }
+.navbar{
+    display: block;
+    text-align: center;
+}
+
+
+.navbarLinks ul{
+
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+ 
+}
+.navbarLinks li{
+
+   flex:1 1;
+   border:2px red;
+   border-style: solid; 
+  
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    display: inline-block;
+    width: 100%;
+   
+    
+    transition: all 0.1s;
+   
+}
+.navbar a:hover{
+    color:#00b3e5;
+}
+.navbar .logo{
+    flex:1 1 100%;
+}
 
 
 
