@@ -24,15 +24,24 @@ html{
 .navbarLink{
     display: flex;
     align-items: center;
+    justify-content:space-between;
 }
 .navbarLink .link2{
     display: flex;
-    
+    flex-basis: 100%;
 }
-.link2 li{
+.link2{
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif; 
+}
+.link2 >*{
     flex:1 1;
     display: inline-block;
 }
+.link2 .icon{
+    height: 1rem;
+    width: 1rem;
+}
+
 .navbarLink ul{
 
     list-style: none;
@@ -75,8 +84,12 @@ html{
 .newsLetter a{
     display: block;
     text-align: left;
+    text-decoration: none;
 }
-
+.subscribe{
+    text-align: right;
+    display: block;
+}
 .title{
     font-size: 36px;
 }
