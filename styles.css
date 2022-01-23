@@ -25,6 +25,10 @@ html{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    border-bottom: solid;
+    border-bottom: 1px solid #bfbfbf;
+    /*box-shadow: 0 2px 5px rgb(0 0 0 / 20%);*/
+    
 }
 .navbarLink .link2{
     display: flex;
@@ -47,7 +51,8 @@ html{
     list-style: none;
     display: flex;
     padding-left: 0;
- 
+    margin-bottom: 0;
+
 }
 .navbarLink li{
 
@@ -73,7 +78,9 @@ html{
 .navbarLink a:hover{
     color:#00b3e5;
 }
-
+.navbarLink .blueLink{
+    color:#00b3e5;
+}
 .header{
     display: flex;
     margin-top: 30px;
@@ -95,7 +102,7 @@ html{
     color: #00b3e5;
     font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif!important;
     font-weight: 700;
-    letter-spacing: -.0375rem;
+    letter-spacing: -1px;
 
 }
 .nl:hover{
@@ -126,7 +133,17 @@ html{
 
 }
 .title{
-    font-size: 36px;
+    font-size: 50px;
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 51px;
+    line-height: 3.1875rem;
+}
+.social a{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-color: black;
 }
 .mainSection{
     display: flex;
