@@ -76,15 +76,35 @@ html{
 
 .header{
     display: flex;
-
+    margin-top: 30px;
 }
 .header div{
     flex:1 1;
 }
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+}
 .newsLetter a{
-    display: block;
+    display: inline;
     text-align: left;
     text-decoration: none;
+    transition: all 0.1s;
+}
+.newsLetter .nl{
+    color: #00b3e5;
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif!important;
+    font-weight: 700;
+    letter-spacing: -.0375rem;
+
+}
+.nl:hover{
+    
+        color:#288eb7;
+}
+.newsLetter .singup{
+    color: #999;
+    font-family: "PT Serif",Georgia,serif!important;
 }
 .subscribe{
     text-align: right;
