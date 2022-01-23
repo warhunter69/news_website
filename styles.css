@@ -109,6 +109,21 @@ html{
 .subscribe{
     text-align: right;
     display: block;
+    
+}
+.subscribe button{
+    background-color: #00b3e5;
+    border: none;
+    display: inline-block;
+    padding: 7.333px;
+    width: 15rem;
+    color:#fff;
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+    font-weight: 700;
+    border-radius: 0.188rem;
+    font-size: 14px;
+    text-transform: uppercase;
+
 }
 .title{
     font-size: 36px;
