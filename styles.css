@@ -58,8 +58,6 @@ html{
 .navbarLink li{
 
    flex:1 1;
-   border:2px red;
-   border-style: solid; 
    display: inline-block;
    padding-bottom: 8.25px;
    margin-right: 16.5px;
@@ -266,5 +264,5 @@ html{
     padding:7.5px;
 }
 .topic button:hover{
- color: black;
+ background-color: #288eb7;
 }
