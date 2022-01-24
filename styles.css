@@ -82,6 +82,10 @@ html{
 .navbarLink .blueLink{
     color:#00b3e5;
 }
+.bl{
+    color:#00b3e5;
+    text-decoration: none;
+}
 .writer a{
     color:#00b3e5;
     text-decoration: none;
@@ -113,10 +117,7 @@ html{
     letter-spacing: -1px;
 
 }
-a{
-    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif!important;
-    
-}
+
 .nl:hover{
     
         color:#288eb7;
@@ -226,4 +227,23 @@ a{
     font-family: "PT Serif",Georgia,serif;
     font-size: 17px;
     line-height: 25px;
+}
+.readMore{
+    background-color: #f5f5f5;
+    padding: 11px;
+
+    
+}
+.readMore a{
+    font-size: 15px;
+    font-weight: 700;
+    color:#00b3e5;
+    text-decoration: none;
+    letter-spacing: -0.1px;
+    margin-left: 4px;
+}
+.readMore h4{
+    margin: 0;
+    color: #000;
+    font-family:Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
 }
