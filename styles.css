@@ -117,7 +117,10 @@ html{
     letter-spacing: -1px;
 
 }
-
+.reference{
+    font-family: sans-serif;
+    font-weight: 700;
+}
 .nl:hover{
     
         color:#288eb7;
@@ -246,4 +249,22 @@ html{
     margin: 0;
     color: #000;
     font-family:Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+}
+.topic span{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+.topic  button{
+    background-color:#005587; 
+    color:#fff;
+    border: none;
+    border-radius: .188rem;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all .2s;
+    padding:7.5px;
+}
+.topic button:hover{
+ color: black;
 }
