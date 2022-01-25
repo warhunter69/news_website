@@ -289,11 +289,13 @@ html{
 .recommendedArticule img{
    display: block;
    max-width: 100%;
-   padding-right: 10px;
-   position: relative;
+   transition: all 0.2s;
+   
 }
 .imgParent{
     position: relative;
+    overflow: hidden;
+    flex: 1 1;
 }
 .recommendedArticule .recommendedCategory{
     position: absolute;
@@ -315,9 +317,17 @@ html{
     color: #002837;
     /*z-index: 0;*/
     transition: all 0.2s;
+   
 
     
 }
 .recommendedArticule a:hover{
     color: #00b3e5;
+   
+}
+.recommendedArticule a:hover img{
+    color: #00b3e5;
+    opacity: .9;
+
+    transform: scale(1.04);
 }
