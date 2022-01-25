@@ -299,10 +299,23 @@ html{
     position: absolute;
     top:0;
     left:0;
+    background-color: #484848;
+    color: #fff;
+    padding: 7px;
+    font-size:14px;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    /*z-index: 10;*/
+
+}
+.recommendedCategory:hover{
+    text-decoration: underline;
 }
 .recommendedArticule a{
     color: #002837;
-    text-decoration: none;
+    /*z-index: 0;*/
+    transition: all 0.2s;
+
     
 }
 .recommendedArticule a:hover{
