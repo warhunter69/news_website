@@ -6,8 +6,12 @@ html{
     box-sizing: inherit;
 
 }
+.navWrapper{
+    max-width: 1100px;
+    margin: auto;
+}
 .main{
-    border: 2px solid;
+    /*border: 2px solid;*/
     height: 100%;
     margin: 0 auto;
     max-width: 1100px
@@ -26,11 +30,19 @@ html{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    border-bottom: solid;
+    
+    /*border-bottom: solid;
     border-bottom: 1px solid #bfbfbf;
     /*box-shadow: 0 2px 5px rgb(0 0 0 / 20%);*/
     
 }
+.stickyNav{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+}
+
 .navbarLink .link2{
     display: flex;
     flex-basis: 100%;
@@ -96,6 +108,11 @@ html{
 }
 .navbarLink .blueLink{
     color:#00b3e5;
+}
+.navUnderline{
+    background-color:#bfbfbf ;
+    height: 1px;
+    width: 100%;
 }
 .bl{
     color:#00b3e5;
@@ -311,7 +328,7 @@ html{
     font-size:14px;
     font-weight: 700;
     letter-spacing: -0.1px;
-    /*z-index: 10;*/
+    z-index: 10;
 
 }
 .recommendedCategory:hover{
@@ -319,7 +336,7 @@ html{
 }
 .recommendedArticule a{
     color: #002837;
-    /*z-index: 0;*/
+    z-index: 0;
     transition: all 0.2s;
    
 
