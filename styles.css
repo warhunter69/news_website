@@ -204,25 +204,28 @@ html{
 
 }   
 
-.social .facebook{
+.facebook{
     background-color: #3b5998;
 }
-.social .retards{
+.retards{
     background-color:#1da1f2;
 }
-.social .whatsapp{
+.whatsapp{
     background-color:#4dc247;
 }
-.social .linkedin{
+.linkedin{
     background-color:#0077b5;
 }
-.social .reddit{
+.reddit{
     background-color:#ff5700;   
 }
-.social .mail{
+.pinterest{
+    background-color: #cb2027;
+}
+.mail{
     background-color:#999;
 }
-.social .print{
+.print{
     background-color:#999;
 }
 .mainSection{
@@ -291,7 +294,7 @@ html{
    display: block;
    max-width: 100%;
    transition: all 0.2s;
-   
+    
 }
 .imgParent{
     position: relative;
@@ -347,6 +350,7 @@ footer{
 .footerWrapper form{
     display: flex;
     align-items: baseline;
+    margin-bottom: 20px;
 
 }
 .footerWrapper input[type="email"]{
@@ -403,4 +407,24 @@ footer{
 }
 #last{
     margin-top: 10px;
+}
+.app a{
+    width: 110px;
+    height: 33px;
+    display: inline-block;
+    margin-right:20px ;
+}
+.app{
+    display: flex;
+}
+.followUs a{
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.finalSection{
+    display: flex;
+    justify-content: center;
 }
