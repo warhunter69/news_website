@@ -42,12 +42,15 @@ html{
     top: 0;
     background-color: #fff;
     z-index: 99;
+    font-size: 18px;
 }
 
 
 .link2{
-    flex:0.5 1;
+    flex:1 1;
     font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif; 
+    text-align: end;
+    padding-bottom: 8.5px;
 }
 .link2 >*{
    
@@ -56,6 +59,17 @@ html{
 .link2 .icon{
     height: 1rem;
     width: 1rem;
+}
+.link2 a{
+    text-decoration: none;
+    color: #002837;
+    text-align: left;
+    display: inline-block;
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all 0.1s;
+    margin-right: 10px;
 }
 .link2 button{
     border: none;
@@ -66,7 +80,7 @@ html{
 }
 
 .navbarLink ul{
-    
+    display: flex;
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
@@ -80,8 +94,8 @@ html{
    position: relative;
 }
 .link1{
-   
-    flex:1 1;
+   flex:4 1;
+   display: inline-block;
 }
 .link1 a{
     text-decoration: none;
@@ -93,6 +107,7 @@ html{
     font-weight: 700;
     text-transform: capitalize;
     transition: all 0.1s;
+    
    
 }
 .navbarLink a:hover{
@@ -121,6 +136,8 @@ html{
     background-color:#bfbfbf ;
     height: 1px;
     width: 100%;
+    position: relative;
+    top: -2px;
 }
 .bl{
     color:#00b3e5;
