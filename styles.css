@@ -190,6 +190,7 @@ html{
 }
 .title p{
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 .social{
     margin-bottom: 11px;
@@ -250,7 +251,7 @@ html{
     
 }
 .mainSection .articule{
-    flex:4 1;
+    flex:2.5 1;
 }
 .mainSection .sidebar{
     flex:1 1;
@@ -444,4 +445,83 @@ footer{
 .finalSection{
     display: flex;
     justify-content: center;
+}
+.sidebar{
+   
+    margin-top: 20px;
+
+}
+.sidebarContainer{
+    background-color: #f5f5f5;
+    top:50px;
+    position: sticky;
+}
+.sidebarButton ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.sidebarButton li{
+    flex:1 1 100%;
+}
+.sidebarButton button{
+    border: none;
+    border-right: 3px solid #fff;
+    width: 100%;
+    display: block;
+    padding: 7px;
+    font-weight: 700;
+    transition: all 0.2s;
+    
+}
+.sidebarButton button:hover{
+
+    background-color: #ddd;
+}
+.sidebarButton button:active{
+
+    background-color: #00b3e5;
+    color: #fff;
+}
+.sidebarArticule ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.sidebarArticule a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 22px;
+    transition: all 0.2s;
+    margin-right: 22px;
+}
+.sidebarArticule li {
+    background-color: #f5f5f5;
+    border-top: 3px solid #fff;
+    counter-increment: top-content-counter;
+    display: flex;
+    flex-direction: row;
+    font-family: Titillium Web,Helvetica,Trebuchet MS,Arial,sans-serif;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 700;
+    letter-spacing: -.0375rem;
+    line-height: 25px;
+    line-height: 1.5625rem;
+    padding: .6875rem;
+}
+.sidebarArticule a:hover {
+    color:#00b3e5;
+}
+.sidebarArticule span{
+    color:#00b3e5;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 700;
+   
+   
 }
