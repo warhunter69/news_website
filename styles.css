@@ -38,6 +38,7 @@ html{
     
 }
 .stickyNav{
+    padding-top: 7px;
     position: sticky;
     top: 0;
     background-color: #fff;
@@ -120,7 +121,7 @@ html{
 .line{
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     left:0;
     right:0;
     background-color: #002837;
@@ -137,7 +138,8 @@ html{
     height: 1px;
     width: 100%;
     position: relative;
-    top: -2px;
+    top: 0px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
 }
 .bl{
     color:#00b3e5;
@@ -475,11 +477,11 @@ footer{
    
     margin-top: 20px;
     padding-left: 20px;
-
+   
 }
 .sidebarContainer{
     background-color: #f5f5f5;
-    top:50px;
+    top:55px;
     position: sticky;
 }
 .sidebarButton ul{
@@ -524,6 +526,8 @@ footer{
     font-size: 22px;
     transition: all 0.2s;
     margin-right: 22px;
+    flex-basis: 100%;
+
 }
 .sidebarArticule li {
     background-color: #f5f5f5;
@@ -550,4 +554,98 @@ footer{
     font-weight: 700;
    
    
+}
+@media all and (max-width:1000px){
+    .hero img{
+        margin: auto;
+       
+    }
+    .navbar{
+        position: relative;
+    }
+    .newsLetter{
+        display: none;
+    }
+    .header ,.header>*{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #fff;
+        
+    }
+    .subscribe{
+        position: relative;
+        top: 30px;
+    }
+    .logo{
+        top: 0;
+        width: 100%;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .logo svg{
+    height: 3.5rem;
+    width: 21.875rem;}
+
+
+    .stickyNav{
+        display: none;
+
+    }
+    .mainSection{
+        flex-direction: column;
+    }
+
+}
+@media all and (max-width:650px){
+    .navbar{
+        position: relative;
+    }
+    .newsLetter{
+        display: none;
+    }
+    .header ,.header>*{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #fff;
+        
+    }
+    .subscribe{
+        position: relative;
+        top: 30px;
+    }
+    .logo{
+        top: 0;
+        width: 100%;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .logo svg{
+    height: 3.5rem;
+    width: 21.875rem;}
+
+
+    .stickyNav{
+        display: none;
+
+    }
+    .mainSection{
+        flex-direction: column;
+    }
+    .recommendedArticule{
+        flex-direction: column;
+    }
+    .footerWrapper form{
+        flex-direction: column;
+    }
+    .footerWrapper input[type="email"]{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
